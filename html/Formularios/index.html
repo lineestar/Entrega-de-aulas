@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de Formulario</title>
+</head>
+
+<body>
+    <h1>Trabalhando com formularios</h1>
+    <p>Formulario simples</p>
+    <form action="">
+        <p>
+            <label for="inome">Nome:</label>
+            <br>
+            <!--etiqueta, e obrigatorio para todo imput, ele descreve a informação no formulario-->
+            <input type="text" name="nome" id="inome">
+            <!--imput e o campo que usuario colocaria a informaçâo/  type e o tipo do campo/ name serve para dizer o nome do campo/ id e o indentificador, como ce fosse o RA da escola-->
+        </p>
+        <p>
+            <label for="isobrenome">Sobrenome:</label>
+            <br>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <p>
+            <label for="iemail">Email:</label>
+            <br>
+            <input type="email" name="email" id="iemail"><!--input de email-->
+        </p>
+        <p>
+            <label for="isenha">Senha:</label>
+            <br>
+            <input type="password" name="senha" id="senha"> <!--input do tipo senha-->
+        </p>
+        <p>
+           Cor favorita:
+           <br>
+           <label for="ivermelho">Vermelho</label>
+           <input type="radio" id="ivermelho" name="cor">
+           <label for="iazul">Azul</label>
+           <input type="radio" id="iazul" name="cor">
+           <label for="iverde">Verde</label>
+           <input type="radio" id="iverde" name="cor">
+        </p>
+        <p>
+            Gosto Musica:
+            <input type="checkbox" id="Trap" name="trap">
+            <label for="itrap">Trap</label><!--no espaço entre os sinais e o que ira aparecera na pagina-->
+           
+        </p>
+        <p>
+            Curso
+        <select name="" id="">
+            <option value="">Selecione...</option>
+            <option value="">Desenvolvimento de sistema</option>
+            <option value="">Suporte em TI</option>
+            <option value="">Gestão empresarial</option>
+        </select>
+        </p>
+        <p>
+            <label for="imensagem">Mensagem:</label>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </p>
+
+        <input type="submit" value="Clique aqui e ganhe um pix"> <!--value e o que estaria dentro do botão-->
+        <input type="reset" value="Limpar">
+    </form>
+
+
+</body>
+
+</html>

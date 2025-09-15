@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<body>
+    <h1>Construindo uma tabela</h1> <!--titulo de primera linha-->
+    <p>Tabela simples</p>
+
+    <!--
+    TABLE
+        thead
+            tr,th,td
+        tbody
+            tr, th, td
+        tfoot
+            tr, th, td
+    SIGNIFICADO DAS TAGS
+        TABLE= tabela
+        THEAD= cabeçalho da tabela
+        TBODY= corpo da tabela
+        TFOOT=rodapé da tabela
+
+        tr= Linha da tabela
+        th= Titulo da tabela
+        td= Dado da tabela
+        MESCLAR COLUNA = colspan
+        MESCLAR LINHA = row
+    -->
+    <table border="1"width = "50%">
+        <tr>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+            <th>Ggosto Musical</th>
+        </tr>
+        <tr>
+            <td>Aline</td>
+            <td>Estrella</td>
+            <td>Regetom</td>
+        </tr>
+        <tr>
+            <td>Gustavo</td>
+            <td>Amaral</td>
+            <Td>Trap</Td>
+        </tr>
+        <tr>
+            <td>Pedro</td>
+            <td>Oliveira</td>
+            <td>Não sabe</td>
+        </tr>
+    </table>
+    <p>Tabela estruturada</p>
+    <table border="1"width="50%">
+        <caption>Dnheiro guardado</caption><!--titulo da minha tabela-->
+       
+        <thead>
+            <tr>
+                <th>Mês</th>
+                <th>Valor guardado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Janeiro</td>
+                <td>R$100</td>
+            </tr>
+            <tr>
+                <td>Fevereiro</td>
+                <td>R$200</td>
+            </tr>
+            <tr>
+                <td>Março</td>
+                <td>R$300</td>
+            </tr>
+        </tbody>
+        <tfoot>                                     
+            <tr>
+                <td colspan="2">Saldo:R$600</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <table border="1" width="50%">
+    <caption>Tabela de notas</caption><!--titulo da minha tabela-->
+        <tr>
+            <th>Nome</th>
+            <th>HTML</th>
+            <th>CSS</th>
+            <th>JavaScrip</th>
+        </tr>
+        <tr>
+           <td>NOME</td>
+           <td>Raul</td>
+           <td></td>
+           <td></td>  
+        </tr>
+        <tr>
+            <th></th>
+        </tr>
+    </table>
+</body>
+</html>
